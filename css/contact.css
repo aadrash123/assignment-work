@@ -1,0 +1,39 @@
+.contact {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin-top: 100px;
+}
+
+.contact img {
+	width: 90%;
+	height: auto;
+}
+
+label {
+  font-size: 18px;
+}
+
+.right h2 {
+	text-align: center;
+}
+
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid gray;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+input[type=submit] {
+  background-color: blue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.contact-form {
+	margin-top: 20px;
+}
