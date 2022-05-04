@@ -1,12 +1,13 @@
 .contact {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
 }
 
 .contact img {
-	width: 90%;
-	height: auto;
+  width: 90%;
+  height: auto;
+  margin: 50px 0;
 }
 
 label {
@@ -14,10 +15,11 @@ label {
 }
 
 .right h2 {
-	text-align: center;
+  text-align: center;
+  margin-top: 50px;
 }
 
-input[type=text], textarea {
+input[type=text], input[type=email], textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid gray;
@@ -35,5 +37,35 @@ input[type=submit] {
 }
 
 .contact-form {
+  margin-top: 20px;
+}
+
+
+
+@media(max-width:650px) {
+  header {
+	position: absolute;
+	height: 80px;
+  }
+
+  .contact {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+  }
+
+  .contact h2 {
 	margin-top: 20px;
+  }
+
+  .contact img {
+	width: 100%;
+	margin-top: 100px;
+	height: auto;
+  }
+
+  footer {
+	bottom: 0;
+	margin: 20px 0;
+	position:inherit;
+  }
 }
