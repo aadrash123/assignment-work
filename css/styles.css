@@ -71,7 +71,7 @@ nav ul li a:hover{
 }
 
 footer {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 footer > p {
@@ -147,6 +147,8 @@ input[type=submit] {
 }
 
 
+
+
 @media(max-width:650px) {
   header {
 	z-index: 100;
@@ -158,6 +160,7 @@ input[type=submit] {
 	padding-bottom: 20px;
 	top: 0;
   }
+  
 
   .logo {
 	display: flex;
@@ -246,3 +249,4 @@ input[type=submit] {
 	padding-top: 90px;
   }
 }
+  
